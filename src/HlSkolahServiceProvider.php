@@ -137,7 +137,7 @@ class HlSekolahServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packageAssetsPath => resource_path('assets'),
-        ], 'pdrb-assets');
+        ], 'hl-sekolah-assets');
     }
 
     /**
@@ -162,6 +162,6 @@ class HlSekolahServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packagePublicPath => base_path('public')
-        ], 'pdrb-public');
+        ], 'hl-sekolah-public');
     }
 }
