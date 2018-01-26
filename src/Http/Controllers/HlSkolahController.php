@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Bantenprov\HlSekolah\Facades\HlSekolah;
 
 /* Models */
-use Bantenprov\HlSekolah\Models\Bantenprov\HlSekolah\HlSekolah as PdrbModel;
+use Bantenprov\HlSekolah\Models\Bantenprov\HlSekolah\HlSekolah as HlSekolahModel;
 use Bantenprov\HlSekolah\Models\Bantenprov\HlSekolah\Province;
 use Bantenprov\HlSekolah\Models\Bantenprov\HlSekolah\Regency;
 
@@ -26,13 +26,13 @@ class HlSekolahController extends Controller
 
     protected $regency;
 
-    protected $pdrb;
+    protected $hl_sekolah;
 
-    public function __construct(Regency $regency, Province $province, PdrbModel $pdrb)
+    public function __construct(Regency $regency, Province $province, HlSekolahModel $hl_sekolah)
     {
         $this->regency  = $regency;
         $this->province = $province;
-        $this->pdrb     = $pdrb;
+        $this->hl_sekolah     = $hl_sekolah;
     }
 
     public function index(Request $request)
@@ -55,14 +55,14 @@ class HlSekolahController extends Controller
     public function show($id)
     {
 
-        $pdrb = $this->pdrb->find($id);
+        $hl_sekolah = $this->hl_sekolah->find($id);
 
         return response()->json([
-            'negara'    => $pdrb->negara,
-            'province'  => $pdrb->getProvince->name,
-            'regencies' => $pdrb->getRegency->name,
-            'tahun'     => $pdrb->tahun,
-            'data'      => $pdrb->data
+            'negara'    => $hl_sekolah->negara,
+            'province'  => $hl_sekolah->getProvince->name,
+            'regencies' => $hl_sekolah->getRegency->name,
+            'tahun'     => $hl_sekolah->tahun,
+            'data'      => $hl_sekolah->data
         ]);
     }
 
@@ -88,7 +88,7 @@ class HlSekolahController extends Controller
             ]);
         }
 
-        $check = $this->pdrb->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
+        $check = $this->hl_sekolah->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
 
         if($check > 0)
         {
@@ -99,13 +99,13 @@ class HlSekolahController extends Controller
             ]);
 
         }else{
-            $data = $this->pdrb->create($request->all());
+            $data = $this->hl_sekolah->create($request->all());
 
             return response()->json([
                     'type'      => 'success',
                     'title'     => 'success',
                     'id'      => $data->id,
-                    'message'   => 'PDRB '. $this->regency->find($request->regency_id)->name .' tahun '. $request->tahun .' successfully created',
+                    'message'   => 'Harapan Lama Sekolah '. $this->regency->find($request->regency_id)->name .' tahun '. $request->tahun .' successfully created',
                 ]);
         }
 
