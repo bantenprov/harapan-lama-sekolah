@@ -89,7 +89,7 @@ export default {
   },
   mounted: function () {
 
-    axios.get('/json/bantenprov/hl-sekolah/hl-sekolah02.json').then(response => {
+    axios.get('/json/bantenprov/hl-sekolah/hl-sekolah-020.json').then(response => {
       let obj_key = [];
       var datas = response.data;
 

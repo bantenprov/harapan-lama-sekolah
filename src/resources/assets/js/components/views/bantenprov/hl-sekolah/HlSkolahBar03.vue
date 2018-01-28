@@ -56,7 +56,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/hl-sekolah/hl-sekolah03.json').then(response => {
+    axios.get('/json/bantenprov/hl-sekolah/hl-sekolah-030.json').then(response => {
 
       var e = response.data;
       var get = e[0].chartdata.grafik[0];
