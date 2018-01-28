@@ -1,13 +1,12 @@
 {
     "name": "bantenprov/harapan-lama-sekolah",
-    "description": "Harapan Lama Sekolah (HLS) wilayah Banten",
-    "type": "library",
-    "homepage": "https://github.com/bantenprov/harapan-lama-sekolah",
-    "authors": [{
-        "name": "bantenprov",
-        "email": "developer.bantenprov@gmail.com",
-        "role": "developer"
-    }],
+    "description": "Indikator Kemiskinan Provinsi di wilayah Banten dan Negara Indonesia",
+    "authors": [
+        {
+            "name": "bantenprov",
+            "email": "developer.bantenprov@gmail.com"
+        }
+    ],
     "license": "MIT",
     "support": {
       "source": "https://github.com/bantenprov/harapan-lama-sekolah,",
@@ -23,9 +22,10 @@
             "src/helpers/helpers.php"
         ],
         "psr-4": {
-            "Bantenprov\\HlSekolah\\": "src"
+            "Bantenprov\\IkProvinsi\\": "src"
         }
     },
     "minimum-stability": "dev"
 }
+
 
