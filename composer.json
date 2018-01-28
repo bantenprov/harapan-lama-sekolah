@@ -22,7 +22,7 @@
             "src/helpers/helpers.php"
         ],
         "psr-4": {
-            "Bantenprov\\IkProvinsi\\": "src"
+            "Bantenprov\\HlSekolah\\": "src"
         }
     },
     "minimum-stability": "dev"
