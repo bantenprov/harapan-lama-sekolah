@@ -117,7 +117,7 @@ import Datepicker from 'vuejs-datepicker';
 import miniToastr from 'mini-toastr';
 miniToastr.init();
 export default {
-    name: "pdrbhargadasar_add",
+    name: "hlSekolah_addadd",
     components: {
         Datepicker
     },
