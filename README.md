@@ -6,7 +6,7 @@ Harapan lama Sekolah
 [![Build Status](https://scrutinizer-ci.com/g/bantenprov/hl-sekolah/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/hl-sekolah/build-status/master)
 
 
-## install via composer
+### install via composer
 
 - Development snapshot
 ```bash
@@ -141,7 +141,7 @@ Vue.component('echarts-hl-sekolah-tahun', HlSekolahTahun);
 import HlSekolahAdminShow from './components/bantenprov/hl-sekolah/HlSekolahAdmin.show.vue';
 Vue.component('admin-view-hl-sekolah-tahun', HlSekolahAdminShow);
 
-//== Echarts pdrb
+//== Echarts Harapan Lama sekolah
 
 import HlSekolahBar01 from './components/views/bantenprov/hl-sekolah/HlSekolahBar01.vue';
 Vue.component('hl-sekolah-bar-01', HlSekolahBar01);
