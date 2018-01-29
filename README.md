@@ -67,7 +67,7 @@ children: [
       sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
     },
     meta: {
-      title: "IK Provinsi"
+      title: "Harapan Lama Sekolah"
     }
   }
 ```
@@ -87,7 +87,7 @@ children: [
         sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
       },
       meta: {
-        title: "IK Provinsi"
+        title: "Harapan Lama Sekolah"
       }
     }
  //== ...   
@@ -116,7 +116,7 @@ children: [
         },
         //== ...
         {
-          name: 'IK Provinsi',
+          name: 'Harapan Lama Sekolah',
           link: '/dashboard/hl-sekolah',
           icon: 'fa fa-angle-double-right'
         }
