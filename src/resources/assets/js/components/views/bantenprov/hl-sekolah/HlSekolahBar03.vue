@@ -59,27 +59,27 @@ export default {
     axios.get('/json/bantenprov/hl-sekolah/hl-sekolah-030.json').then(response => {
 
       var e = response.data;
-      var get = e[0].chartdata.grafik[0];
+      var get = e[0].Region[0];
 
       let i = 0;
-
-      this.bar.xAxis.data = Object.keys(response.data[0].chartdata.grafik[0].tahun[0]);
-      this.bar.series[0].data = Object.values(response.data[0].chartdata.grafik[0].tahun[0]);
-      this.bar.title.text = response.data[0].chartdata.grafik[0].tingkat + ' ' +response.data[0].chartdata.grafik[0].name;
+      
+      this.bar.xAxis.data = Object.keys(response.data[0].Region[0].tahun[0]);
+      this.bar.series[0].data = Object.values(response.data[0].Region[0].tahun[0]);
+      this.bar.title.text = response.data[0].Region[0].name;
 
       setInterval(() => {
         i++;
         setTimeout(() => {
 
-          this.bar.xAxis.data = Object.keys(response.data[0].chartdata.grafik[i].tahun[0]);
-          this.bar.series[0].data = Object.values(response.data[0].chartdata.grafik[i].tahun[0]);
-          this.bar.title.text = response.data[0].chartdata.grafik[i].tingkat + ' ' + response.data[0].chartdata.grafik[i].name;
+          this.bar.xAxis.data = Object.keys(response.data[0].Region[i].tahun[0]);
+          this.bar.series[0].data = Object.values(response.data[0].Region[i].tahun[0]);
+          this.bar.title.text = response.data[0].Region[i].name;
 
         }, 10);
 
-        if(i ==  response.data[0].chartdata.grafik.length) {
+        if(i ==  response.data[0].Region.length) {
           i = 0;
-        }
+         }
       }, 5000);
       this.loading = false;
 
