@@ -1,6 +1,6 @@
 [
   {
-    "Provinsi": [
+    "Region": [
       {
         "tingkat": "satu",
         "wilayah": "Provinsi",
@@ -15,9 +15,7 @@
             "2015": 12.35
           }
         ]
-      }
-    ],
-    "Negara": [
+      },
       {
         "tingkat": "pusat",
         "wilayah": "Negara",
@@ -36,4 +34,3 @@
     ]
   }
 ]
-
