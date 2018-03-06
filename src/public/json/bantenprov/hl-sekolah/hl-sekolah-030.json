@@ -1,34 +1,52 @@
 [
   {
-    "Region": [
+    "xAxis": {
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "title": "Harapan Lama Sekolah Provinsi Banten",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
       {
-        "tingkat": "satu",
-        "wilayah": "Provinsi",
-        "name": "Banten",
-        "tahun": [
-          {
-            "2010": 11.02,
-            "2011": 11.41,
-            "2012": 11.79,
-            "2013": 12.05,
-            "2014": 12.31,
-            "2015": 12.35
-          }
+        "data": [
+          11.02,
+          11.41,
+          11.79,
+          12.05,
+          12.31,
+          12.35
         ]
-      },
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Harapan Lama Sekolah Negara Indonesia",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
       {
-        "tingkat": "pusat",
-        "wilayah": "Negara",
-        "name": "Indonesia",
-        "tahun": [
-          {
-            "2010": 11.29,
-            "2011": 11.44,
-            "2012": 11.68,
-            "2013": 12.1,
-            "2014": 12.39,
-            "2015": 12.55
-          }
+        "data": [
+          11.29,
+          11.44,
+          11.68,
+          12.10,
+          12.39,
+          12.55
         ]
       }
     ]
