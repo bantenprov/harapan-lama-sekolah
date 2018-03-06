@@ -1,303 +1,187 @@
 [
   {
-    "2010": [
+    "xAxis": {
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "title": "Harapan Lama Sekolah 2010 provinsi Banten",
+      "data": [
+        "Kabupaten Pandeglang",
+        "Kabupaten Lebak",
+        "Kabupaten Tangerang",
+        "Kabupaten Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 11.23
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 10.35
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 10.77
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 10.74
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 11.56
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 11.56
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 10.98
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 12.08
+        "data": [
+          11.23,
+          10.35,
+          10.77,
+          10.74,
+          11.56,
+          11.78,
+          10.98,
+          12.08
+        ]
       }
-    ],
-    "2011": [
+    ]
+  },
+  {
+    "xAxis": {
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "title": "Harapan Lama Sekolah 2011 Provinsi Banten",
+      "data": [
+        "Kab.Pandeglang",
+        "Kab.Lebak",
+        "Kab.Tangerang",
+        "Kab.Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 11.81
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 10.83
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 10.99
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 11.23
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 11.86
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 11.88
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 11.27
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 12.43
+        "data": [
+          11.81,
+          10.83,
+          10.99,
+          11.23,
+          11.86,
+          11.88,
+          11.27,
+          12.43
+        ]
       }
-    ],
-    "2012": [
+    ]
+  },
+  {
+    "xAxis": {
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "title": "Harapan Lama Sekolah 2012 Provinsi Banten",
+      "data": [
+        "Kab.Pandeglang",
+        "Kab.Lebak",
+        "Kab.Tangerang",
+        "Kab.Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 12.17
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 10.96
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 11.18
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 11.72
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 12.23
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 12.18
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 11.82
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 12.79
+        "data": [     
+          12.17,
+          10.96,
+          11.18,
+          11.72,
+          12.23,
+          12.18,
+          11.82,
+          12.79
+        ]
       }
-    ],
-    "2013": [
+    ]
+  },
+  {
+    "xAxis": {
+      "region": "Kabupaten",
+      "name": "Serang",
+      "title": "Harapan Lama Sekolah 2013 Provinsi Banten",
+      "data": [
+        "Kab.Pandeglang",
+        "Kab.Lebak",
+        "Kab.Tangerang",
+        "Kab.Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 12.86
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 11.55
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 11.44
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 12.09
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 12.60
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 12.67
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 11.92
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 13.24
+        "data": [
+          12.86,
+          11.55,
+          11.44,
+          12.09,
+          12.60,
+          12.67,
+          11.92,
+          13.24
+        ]
       }
-    ],
-    "2014": [
+    ]
+  },
+  {
+    "xAxis": {
+      "region": "Kota",
+      "name": "Tangerang",
+      "title": "Harapan Lama Sekolah 2014 Provinsi Banten",
+      "data": [
+        "Kab.Pandeglang",
+        "Kab.Lebak",
+        "Kab.Tangerang",
+        "Kab.Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 13.38
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 11.88
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 11.65
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 12.35
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 12.86
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 13.07
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 12.34
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 13.58
+        "data": [
+          13.38,
+          11.88,
+          11.65,
+          12.35,
+          12.86,
+          13.07,
+          12.34,
+          13.58
+        ]
       }
-    ],
-    "2015": [
+    ]
+  },
+  {
+    "xAxis": {
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "title": "Harapan Lama Sekolah 2015 Provinsi Banten",
+      "data": [
+        "Kab.Pandeglang",
+        "Kab.Lebak",
+        "Kab.Tangerang",
+        "Kab.Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 13.39
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 11.90
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 11.89
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 12.36
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 12.90
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 13.10
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 12.36
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 13.61
+        "data": [
+          13.39,
+          11.90,
+          11.89,
+          12.36,
+          12.90,
+          13.10,
+          12.36,
+          13.61
+        ]
       }
     ]
   }

@@ -1,0 +1,272 @@
+[
+    {
+      "xAxis": {
+        "title": "Harapan Lama Sekolah 2010",
+        "region": "Kabupaten",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 11.23,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 10.35,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 10.77,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 10.74,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 11.56,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 11.78,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 10.98,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 12.08,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Harapan Lama Sekolah 2011",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 11.81,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 10.83,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 10.99,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 11.23,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 11.86,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 11.88,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 11.27,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 12.43,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Harapan Lama Sekolah 2012",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 12.17,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 10.96,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 11.18,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 11.72,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 12.23,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 12.18,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 11.82,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 12.79,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Harapan Lama Sekolah 2013",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 12.86,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 11.55,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 11.44,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 12.09,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 12.60,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 12.67,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 11.92,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 13.24,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Harapan Lama Sekolah 2014",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 13.38,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 11.88,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 11.65,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 12.35,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 12.86,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 13.07,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 12.34,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 13.58,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Harapan Lama Sekolah 2015",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 13.39,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 11.90,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 11.89,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 12.36,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 12.90,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 13.10,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 12.36,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 13.61,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
